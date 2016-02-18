@@ -1,0 +1,7 @@
+def remove_duplicates(lst):
+    lst_new = []
+    for item in lst:
+        if item not in lst_new:
+            lst_new.append(item)
+    return lst_new
+print remove_duplicates([1,1,2,2])
